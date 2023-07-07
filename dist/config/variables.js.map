@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/config/variables.ts"],
+  "sourcesContent": ["import dotenv from 'dotenv';\n\ndotenv.config();\n\nexport const PORT=process.env.PORT \nexport const DB=process.env.DB  as string\nexport const SALTROUND=process.env.SALTROUND as string\nexport const JWT_SECRET=process.env.JWT_SECRET as string"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,oBAAmB;AAEnB,cAAAA,QAAO,OAAO;AAEP,MAAM,OAAK,QAAQ,IAAI;AACvB,MAAM,KAAG,QAAQ,IAAI;AACrB,MAAM,YAAU,QAAQ,IAAI;AAC5B,MAAM,aAAW,QAAQ,IAAI;",
+  "names": ["dotenv"]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/types/index.ts"],
+  "sourcesContent": ["export interface userRegisterParams {\n    fullName: string,\n    email: string,\n    username: string,\n    password: string,\n    confirmPassword: string,\n}\n\nexport interface userLoginParams {\n    email: string,\n    password: string,\n}"],
+  "mappings": ";;;;;;;;;;;;;;AAAA;AAAA;",
+  "names": []
+}
